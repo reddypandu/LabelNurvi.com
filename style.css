@@ -1,0 +1,35 @@
+
+/*Footer*/
+.Button--primar:before{
+    background-color: rgb(187, 166, 47);
+  }
+  .Headin{
+    font-family: Cormorant!important;
+    font-weight: 100;
+    letter-spacing: 1px;
+    color: white;
+    transition: color .2s ease-in-out;
+    text-transform: uppercase;
+  }
+  /*backgound-color:rgb(117, 33, 111);*/
+  .Butto{
+    background-color: rgb(103, 35, 98);
+    position: relative;
+    display: inline-block;
+    padding: 14px 28px;
+    line-height: normal;
+    border: 1px solid transparent;
+    border-radius: 0;
+    text-transform: uppercase;
+    font-size: 15px;
+    text-align: center;
+    letter-spacing: .2em;
+    font-family: Lato,sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    transition: color .45s cubic-bezier(.785,.135,.15,.86),border .45s cubic-bezier(.785,.135,.15,.86);
+    z-index: 1;
+    -webkit-tap-highlight-color: initial;
+    max-width: none;
+    color: white;
+  }
